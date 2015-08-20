@@ -7,7 +7,7 @@ Usage:
 1. Build the image:
 
    ```
-   build -t geotoad .
+   docker build -t geotoad .
    ```
 2. Run the Text User Interface to manually perform the query and store the output gpx in `/opt/gpx` directory, which is in turn mapped to your current directory:
 
