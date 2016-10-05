@@ -1,5 +1,7 @@
 # geotoad-docker
 
+[![](https://images.microbadger.com/badges/image/lekum/geotoad-docker.svg)](https://microbadger.com/images/lekum/geotoad-docker)
+
 A dockerized version of [geotoad](https://github.com/HughP/geotoad). The image built has a `/opt/gpx` directory that can be used to hold the output gpx, so that you could mount it via a volume and map to any directory in your host.
 
 Usage:
