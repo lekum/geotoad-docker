@@ -1,13 +1,13 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Alejandro Guirao <lekumberri@gmail.com>
-ENV REFRESHED_AT 2015-09-15
+ENV REFRESHED_AT 2016-10-05
 
 RUN apt-get -qqy update
 RUN apt-get -qqy install ruby git
 
 RUN mkdir -p /opt/geotoad
 RUN mkdir -p /opt/gpx
-RUN git clone https://github.com/HughP/geotoad.git /opt/geotoad
+RUN git clone https://github.com/steve8x8/geotoad.git /opt/geotoad
 
 WORKDIR /opt/geotoad
 RUN echo `cat VERSION`+`date +%Y%m%d`-`git log | head -n1 | cut -c8-14` > GEOTOAD_VERSION
