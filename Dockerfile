@@ -1,4 +1,4 @@
-FROM ubuntu:17.04
+FROM ubuntu:17.10
 LABEL maintainer="Alejandro Guirao <lekumberri@gmail.com>"
 ENV REFRESHED_AT 2018-02-11
 
