@@ -1,6 +1,6 @@
 FROM ubuntu:17.04
 LABEL maintainer="Alejandro Guirao <lekumberri@gmail.com>"
-ENV REFRESHED_AT 2017-11-26
+ENV REFRESHED_AT 2018-02-11
 
 RUN apt-get -qqy update
 RUN apt-get -qqy install ruby git
